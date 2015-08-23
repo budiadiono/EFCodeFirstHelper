@@ -136,6 +136,11 @@ END
 
 Seems that was a good idea, but not if you have to write the trigger by hand :) Specially if you have bunch of composite keyed tables. So this helper created to helps us to generate that trigger for us.
 
+### Installation
+Instead of build this project manually, you can get it from NuGet package manager:
+
+`Install-Package EFCodeFirstHelper`
+
 ### Usage
 
 Firstly, you have to make sure that the main primary key of your model decorated with `[DatabaseGenerated(DatabaseGeneratedOption.Identity)]` attribute. In the example above, you need to decorate the propery `Id` of `Student`:
@@ -209,6 +214,7 @@ Feel free for all suggestions, improvements and pull requests.
 Thanks to:
 
 http://romiller.com/tag/metadataworkspace/
+
 http://www.codeproject.com/Tips/890432/Entity-Framework-DiagnosticsContext-Get-Detailed
 
 ## License
