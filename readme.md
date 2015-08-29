@@ -133,6 +133,7 @@ BEGIN
 END
 ```
 
+You can see more detail explanation about how this trigger works on my blog post on http://www.budiadiono.com/2015/08/28/mssql-server-grouped-auto-increment-key-for-composite-key/.
 
 Seems that was a good idea, but not if you have to write the trigger by hand :) Specially if you have bunch of composite keyed tables. So this helper created to helps us to generate that trigger for us.
 
