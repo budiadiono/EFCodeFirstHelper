@@ -170,7 +170,7 @@ First, create the helper instance:
 ```
 protected override void Seed(DataContext context) {
     // Helper instance
-    var helper = CompositeKeys.AutoCompositeKeyHelper(context);
+    var helper = new CompositeKeys.AutoCompositeKeyHelper(context);
     ...
 ```
 
